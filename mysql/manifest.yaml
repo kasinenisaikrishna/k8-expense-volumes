@@ -41,7 +41,7 @@ spec:
       project: expense
       component: mysql
       tier: db 
-  serviceName: "mysql-headless" # this is the headless service should be mentioned fpr statefulset
+  serviceName: "mysql-headless" # this is the headless service should be mentioned for statefulset
   replicas: 2 
   template:
     metadata:
